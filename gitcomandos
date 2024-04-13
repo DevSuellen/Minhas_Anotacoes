@@ -1,6 +1,7 @@
+>>> w3schools mysql<<< documentação MYSQL
 >>>>>> Subir arquivo para o github <<<<<
 
->Terminal<
+>>>Terminal<<<
 
 git checkout -b aula0804 
 git add .
