@@ -1,0 +1,11 @@
+>>>>>> Subir arquivo para o github <<<<<
+
+>Terminal<
+
+git checkout -b aula0804 
+git add .
+git commit -m " "
+git push origin aula0804
+
+>>>>>> Pull requests <<<<<
+>>>>>> 
