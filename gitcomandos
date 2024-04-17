@@ -25,7 +25,9 @@ Language - Java
 Spring Boot - 3.2.4
 Packaging - Jar
 Java - 17
+
 Project Metadata:  
+
 Group - com.soulcode
 Artifact - produtos-api
 Name - produtos-api
@@ -37,6 +39,7 @@ Dependencies(bibliotecas - spring funcione):
 -> Spring Boot DevTools - inicialização
 -> Thymeleaf
 ..................GENERATE..................
+>>> abrir pasta dentro do intellij > http://localhost:8080/
 
 
 
