@@ -3,7 +3,6 @@ HTTRACK
 
 >>> w3schools mysql<<< documentação MYSQL
 >>>>>> Subir arquivo para o github <<<<<
-
 >>>Terminal<<<
 
 git checkout -b aula0804 
@@ -13,3 +12,36 @@ git push origin aula0804
 
 >>>>>> Pull requests <<<<<
 >>>>>> 
+
+>>> Spring <<<
+<<Spring Boot>>
+documentação do Spring: https://spring.io/projects/spring-boot
+
+criação de projetos: https://start.spring.io/
+
+(necessario as configurações antes de inicializar o projeto)
+project - Maven
+Language - Java
+Spring Boot - 3.2.4
+Packaging - Jar
+Java - 17
+Project Metadata:  
+Group - com.soulcode
+Artifact - produtos-api
+Name - produtos-api
+Description - primeiro spring criado
+Package name - com.soulcode.produtos-api
+Dependencies(bibliotecas - spring funcione):
+-> Spring Web
+-> Spring Data JPA
+-> Spring Boot DevTools - inicialização
+-> Thymeleaf
+..................GENERATE..................
+
+
+
+
+
+
+
+
