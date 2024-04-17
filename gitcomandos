@@ -40,6 +40,8 @@ Dependencies(bibliotecas - spring funcione):
 -> Thymeleaf
 ..................GENERATE..................
 >>> abrir pasta dentro do intellij > http://localhost:8080/
+pastatemplate -> inserir paginas html -> file html
+
 
 
 
