@@ -1,0 +1,16 @@
+>>>SPRING BOOT>>>
+++ metodos para enviar mensagens para o servidor  // pegando parametros.
+### METODO GET -> APARECE na URL // usado para solicitar algum dado para o servidor. // usuario solicitar alguma informação atraves do GET. // receber parametros pela URL. // dados ficaram na URL // 
+salvar em variaveis.
+@RequestMapping(value = "/elastech", method = RequestMethod. GET)  // pegar variaveis.
+public String paginaelastech(@RequestParam String nome, @RequestParam int idade) 
+
+### METODO POST -> NÃO aparece na URL. // enviar dados do servidor para processamento //  incluidos no corpo da solicitação // envia os dados no corpo da solicitação. 
+
+
+
+
+
+
+
+
