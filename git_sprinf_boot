@@ -13,6 +13,10 @@ name -> nome do dado enviado
 
 ### METODO POST -> NÃO aparece na URL. // enviar dados do servidor para processamento //  incluidos no corpo da solicitação // envia os dados no corpo da solicitação. 
 
+## Banco de dados#
+
+@Entity
+
 
 
 
