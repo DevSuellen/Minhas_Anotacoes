@@ -16,7 +16,7 @@ git push origin aula0804
 >>> Spring <<<
 <<Spring Boot>>
 documentação do Spring: https://spring.io/projects/spring-boot
-
+(initializr)
 criação de projetos: https://start.spring.io/
 
 (necessario as configurações antes de inicializar o projeto)
