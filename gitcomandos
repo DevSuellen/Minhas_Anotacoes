@@ -10,6 +10,13 @@ git add .
 git commit -m " "
 git push origin aula0804
 
+#clone github#
+> Fork
+>comando:
+>git clone + URL
+>cd nome_do_repositorio  (tab)
+
+
 >>>>>> Pull requests <<<<<
 >>>>>> 
 
