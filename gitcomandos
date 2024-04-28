@@ -39,7 +39,7 @@ Group - com.soulcode
 Artifact - produtos-api
 Name - produtos-api
 Description - primeiro spring criado
-Package name - com.soulcode.produtos-api
+Package name - com.soulcode.produtos-api 
 Dependencies(bibliotecas - spring funcione):
 -> Spring Web
 -> Spring Data JPA
@@ -55,7 +55,7 @@ pastatemplate -> inserir paginas html -> file html
 spring.thymeleaf.prefix=classpath:/templates/
 spring.thymeleaf.suffix=.html
 
-spring.datasource.url=jdbc:mysql://localhost:3306/api
+spring.datasource.url=jdbc:mysql://localhost:3306/api (nome do banco mysql)
 spring.datasource.username=root
 spring.datasource.password=senha MySQL
 
@@ -67,9 +67,36 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.properties.hibernate.show_sql=true
 
+##Criando a classe - Banco de dados:
+@Entity
+public class Usuario {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    @Column
+    private String nome;
+    
+    @Column 
+    private String email;
+    
+    @Column
+    private int idade;
 
+-> criar um Controller -  possui:
+
+ @Autowired   ( injetar uma dependência diretamente em uma propriedade da classe:)
+    private UsuarioRepository usuarioRepository;
+ @RequestMapping(value = "/cadusuario", method = RequestMethod.POST) // cadastrar usa POST     //usar Postman - ativar link http://localhost:8080/cadusuario
+    public Usuario save(){
+        Usuario u = new Usuario();
 
 -> criar pasta model -> onde será criado nossas classes;
+-> criar pasta repositories -> repository ( nosso repositorio - banco de dados)
+
+    -> interface: public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+
+
 
 
 
