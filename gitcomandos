@@ -55,7 +55,7 @@ pastatemplate -> inserir paginas html -> file html
 spring.thymeleaf.prefix=classpath:/templates/
 spring.thymeleaf.suffix=.html
 
-spring.datasource.url=jdbc:mysql://localhost:3306/
+spring.datasource.url=jdbc:mysql://localhost:3306/api
 spring.datasource.username=root
 spring.datasource.password=senha MySQL
 
