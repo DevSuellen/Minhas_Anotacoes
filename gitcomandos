@@ -45,6 +45,7 @@ Dependencies(bibliotecas - spring funcione):
 -> Spring Data JPA
 -> Spring Boot DevTools - inicialização
 -> Thymeleaf
+-> MySQL Driver (usar com mysql)
 ..................GENERATE..................
 >>> abrir pasta dentro do intellij > http://localhost:8080/
 pastatemplate -> inserir paginas html -> file html
