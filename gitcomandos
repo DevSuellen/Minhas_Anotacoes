@@ -51,7 +51,21 @@ Dependencies(bibliotecas - spring funcione):
 pastatemplate -> inserir paginas html -> file html
 
 
+##Usando MySQL e o java: (CONFIGURAÇÃO, ERRO:Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.)
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
 
+spring.datasource.url=jdbc:mysql://localhost:3306/
+spring.datasource.username=root
+spring.datasource.password=senha MySQL
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.show_sql=true
 
 
 
