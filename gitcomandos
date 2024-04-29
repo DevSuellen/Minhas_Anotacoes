@@ -10,6 +10,8 @@ git add .
 git commit -m " "
 git push origin aula0804
 
+apos finalizar a tarefa:  git checkout main  -> git pull   -> criar nova pasta, para nova tarefa.
+
 #clone github#
 > Fork
 >comando:
