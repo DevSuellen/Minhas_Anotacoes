@@ -102,5 +102,7 @@ public class Usuario {
 
 ## MySQL:  select * from api.usuario;
 
+##editar usuario: Postman -> PUT -> RAW -> JSON
+
 
 
