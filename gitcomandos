@@ -106,5 +106,11 @@ public class Usuario {
 
 ## formato JSON - RETORNANDO UM ARQUIVO E NÃO UM TEXTO
 
+## MySQL -> 
 
+use api22;
 
+describe produto;
+
+select * from produto;
+#####################
