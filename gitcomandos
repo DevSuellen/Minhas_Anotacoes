@@ -69,7 +69,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.properties.hibernate.show_sql=true
 
-## https://www.postman.com/downloads/
+## https://www.postman.com/downloads/    (SALVAR PRODUTO)
 
 ##Criando a classe - Banco de dados:
 @Entity
