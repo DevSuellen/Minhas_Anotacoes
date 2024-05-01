@@ -104,5 +104,7 @@ public class Usuario {
 
 ##editar usuario: Postman -> PUT -> RAW -> JSON
 
+## formato JSON - RETORNANDO UM ARQUIVO E NÃO UM TEXTO
+
 
 
