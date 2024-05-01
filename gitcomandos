@@ -100,7 +100,7 @@ public class Usuario {
 
     -> interface: public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
-
+## MySQL:  select * from api.usuario;
 
 
 
