@@ -6,3 +6,22 @@ FUNÇÃO: escreva / resuma / traduza/crie
 TIPO DE TEXTO: roteiro / post para blog / artigo / postagem do instagram
 ASSUNTO: I.A, futebol, música, filme
 ESTILO: personalidade, escritor, filosofo
+
+3R's
+
+Me escreva um artigo sobre primeiros passos no Docker, em tom de conversa com uma criança de 10 anos. aGORA, USE OS ITENS EM {resumo}
+para o {ROTEIRO} seguindo as  {REGRAS}
+{RESUMO}
+[Autoridade]: Felipe, um desenvolvedor fullstack
+[AVATAR]Desenvolvedores Juniors
+[Problema]: Como instalar o Docker
+
+{ROTEIRO}
+Olá eu sou [AUTORIDADE] e vou ajudar o [AVATAR]
+Hjoe vamos resolver o [Problema]
+
+{REGRAS}
+>Siga o {ROTEIRO} acima e substituaa os elementos entre [] do {ROTEIRO}
+por aqueles listados em {RESUMO} acima.
+>Mantenha o tom e ritmo, mas reescreva as palavras em {ROTEIRO} para que seja diferente do original, expandindo ou mudando conforme necessário. 
+
